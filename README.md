@@ -1,4 +1,10 @@
-[![Build Status](https://travis-ci.org/UNOMP/unified-node-open-mining-portal.png?branch=master)](https://travis-ci.org/UNOMP/unified-node-open-mining-portal)
+#### Creator Attribution
+Thanks to [UNOMP.ORG](https://github.com/UNOMP/unified-node-open-mining-portal) for their original work.
+
+Project forked to work on another Hybrid coin, and making it GPU Capable. Moving code around, and debugging, etc
+is a pain via FTP.  This makes my life easier.
+
+If there are any changes I deem worthy, a pull request back to creators code is likely.
 
 #### Unified NOMP
 
