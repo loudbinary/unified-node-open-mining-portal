@@ -3,11 +3,11 @@ var net    = require('net');
 var bignum = require('bignum');
 var fs     = require('fs');
 
-var algos  = require('merged-pooler/lib/algoProperties.js');
-var util   = require('merged-pooler/lib/util.js');
+var algos  = require('loudbinary-merged-pooler/lib/algoProperties.js');
+var util   = require('loudbinary-merged-pooler/lib/util.js');
 var Poloniex = require('./apiPoloniex.js');
 var Bittrex  = require('./apiBittrex.js');
-var Stratum  = require('merged-pooler');
+var Stratum  = require('loudbinary-merged-pooler');
 
 module.exports = function(logger){
 
