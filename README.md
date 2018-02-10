@@ -6,6 +6,27 @@ is a pain via FTP.  This makes my life easier.
 
 If there are any changes I deem worthy, a pull request back to creators code is likely.
 
+#### Notes for Developers
+
+You'll likely want to clone both this repository
+```git clone https://github.com/loudbinary/unified-node-open-mining-portal.git```
+
+and 
+
+```git clone https://github.com/loudbinary/loudbinary/node-merged-pool```
+
+So that you can develop each project independently.  First 
+
+```cd node-merged-pool && npm install && npm link```
+
+Now within the unified-node-open-mining-portal project before running npm install, you must first link other
+project, node-merged-pool.  
+
+Execute ```npm link loudbinary-node-merged-pool```
+
+Now run npm install
+
+
 #### Unified NOMP
 
 This repo will serve as an open source multipool. Multipool capabilities are in alpha testing in this version. This will give the ability to utilize NOMP with merged capabilities but NO merged coin payouts. *ONLY* the main chain coins will payout and calculate correctly at the moment.
